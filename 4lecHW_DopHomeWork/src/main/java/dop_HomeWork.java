@@ -17,6 +17,7 @@ public class dop_HomeWork {
         System.out.println("| |   | |");
         System.out.println("| *___| |");
         System.out.println("*_______|");
+        System.out.println("Вводите свои координаты");
         Scanner sc = new Scanner(System.in);
         while (s == true) {
             xf1 = sc.nextDouble();
