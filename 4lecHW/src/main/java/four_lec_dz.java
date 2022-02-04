@@ -7,38 +7,38 @@ public class four_lec_dz {
         int i = sc_main.nextInt();
         switch (i) {
             case 1:
-                TASK1();
+                TaskOne();
                 break;
             case 2:
-                TASK2();
+                TaskTwo();
                 break;
             case 3:
-                TASK3();
+                TaskThree();
                 break;
             case 4:
-                TASK4();
+                TaskFour();
                 break;
             case 5:
-                TASK5();
+                TaskFive();
                 break;
             case 6:
-                TASK6();
+                TaskSix();
                 break;
             case 7:
-                TASK7();
+                TaskSeven();
                 break;
             case 8:
-                TASK8();
+                TaskEight();
                 break;
             case 9:
-                TASK9();
+                TaskNine();
                 break;
         }
 
 
     }
 
-    public static void TASK1() {
+    public static void TaskOne() {
         double sm;
         double inch;
         System.out.println("Введи sm (sm > inch) или inch (inch > sm)");
@@ -68,7 +68,7 @@ public class four_lec_dz {
         }
     }
 
-    public static void TASK2() {
+    public static void TaskTwo() {
         int grn;
         double result;
         System.out.println("Введите сумму хохлобаксов");
@@ -82,7 +82,7 @@ public class four_lec_dz {
         sc.close();
     }
 
-    public static void TASK3() {
+    public static void TaskThree() {
         int x;
         int dec;
         int nat;
@@ -99,7 +99,7 @@ public class four_lec_dz {
 
     }
 
-    public static void TASK4() {
+    public static void TaskFour() {
         int x;
         int dec;
         int nat;
@@ -116,7 +116,7 @@ public class four_lec_dz {
 
     }
 
-    public static void TASK5() {
+    public static void TaskFive() {
         int x;
         int dec;
         int nat;
@@ -135,7 +135,7 @@ public class four_lec_dz {
 
     }
 
-    public static void TASK6() {
+    public static void TaskSix() {
         int x;
         int s1;
         int s2;
@@ -159,7 +159,7 @@ public class four_lec_dz {
         sc.close();
     }
 
-    public static void TASK7() {
+    public static void TaskSeven() {
         int x;
         System.out.println("Введите число");
         Scanner sc = new Scanner(System.in);
@@ -174,7 +174,7 @@ public class four_lec_dz {
         sc.close();
     }
 
-    public static void TASK8() {
+    public static void TaskEight() {
         int x;
         System.out.println("Введите число");
         Scanner sc = new Scanner(System.in);
@@ -187,7 +187,7 @@ public class four_lec_dz {
         sc.close();
     }
 
-    public static void TASK9() {
+    public static void TaskNine() {
         int x;
         int dec;
         int nat;
