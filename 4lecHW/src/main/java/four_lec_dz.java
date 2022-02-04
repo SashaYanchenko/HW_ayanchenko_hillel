@@ -95,6 +95,7 @@ public class four_lec_dz {
         dec = x / 10;
         nat = x % 10;
         System.out.println(nat + " " + dec);
+        sc.close();
 
     }
 
@@ -111,6 +112,7 @@ public class four_lec_dz {
         dec = x / 10;
         nat = x % 10;
         System.out.println(dec * 10 + " + " + nat);
+        sc.close();
 
     }
 
@@ -129,6 +131,7 @@ public class four_lec_dz {
         nat = x % 10;
         result = dec + nat;
         System.out.println("Вес = " + result);
+        sc.close();
 
     }
 
