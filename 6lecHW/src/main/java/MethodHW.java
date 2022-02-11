@@ -46,7 +46,6 @@ public class MethodHW {
             case '/' -> result = x / y;
             default -> {
                 System.out.println("Попробуйте еще раз");
-                result = calc(x, y, getOperation());
             }
         }
         return result;
