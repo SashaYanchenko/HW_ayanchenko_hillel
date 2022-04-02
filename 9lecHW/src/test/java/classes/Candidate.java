@@ -8,7 +8,7 @@ public class Candidate {
     public String location;
     public int courses;
 
-    public Candidate(){
+    public Candidate() {
 
     }
 
@@ -18,7 +18,7 @@ public class Candidate {
         this.courses = courses;
     }
 
-     public void searchForWork(){
+    public void searchForWork() {
         System.out.println("Ищу работу!");
     }
 
