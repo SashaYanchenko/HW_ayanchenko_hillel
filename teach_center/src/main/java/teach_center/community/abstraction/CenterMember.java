@@ -9,11 +9,13 @@ public abstract class CenterMember {
     private Address address;
     private String email;
 
-
     public CenterMember(String name, int age, String email) {
         this.name = name;
         this.age = age;
         this.email = email;
+    }
+
+    protected CenterMember() {
     }
 
     public void setAddress(Address address) {
@@ -23,7 +25,6 @@ public abstract class CenterMember {
     public void setEmail(String email) {
         this.email = email;
     }
-
 
     public String getName() {
         return name;
@@ -40,8 +41,6 @@ public abstract class CenterMember {
     public String getEmail() {
         return email;
     }
-
-
 
     public abstract void work();
 

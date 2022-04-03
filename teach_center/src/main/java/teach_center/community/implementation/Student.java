@@ -7,9 +7,13 @@ import java.util.Objects;
 
 public class Student extends CenterMember {
 
-    private Subject[] subject;
+    private Subject [] subject;
     private int yearOfStudy;
     private String formOfEducation;
+
+    public Student() {
+
+    }
 
     public Student(String name, int age, String email, Subject[] subject, int yearOfStudy, String formOfEducation) {
         super(name, age, email);
@@ -18,16 +22,16 @@ public class Student extends CenterMember {
         this.formOfEducation = formOfEducation;
     }
 
-    public void setSubject(Subject[] subject) {
-        this.subject = subject;
-    }
-
     public void setYearOfStudy(int yearOfStudy) {
         this.yearOfStudy = yearOfStudy;
     }
 
     public void setFormOfEducation(String formOfEducation) {
         this.formOfEducation = formOfEducation;
+    }
+
+    public void setSubject(Subject[] subject) {
+        this.subject = subject;
     }
 
     public int getYearOfStudy() {
@@ -63,8 +67,7 @@ public class Student extends CenterMember {
     @Override
     public String toString() {
         return "Student{" +
-                "subject=" + subject +
-                ", yearOfStudy=" + yearOfStudy +
+                "yearOfStudy=" + yearOfStudy +
                 ", formOfEducation='" + formOfEducation + '\'' +
                 '}';
     }

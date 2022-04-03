@@ -10,9 +10,8 @@ public class Demo {
 
     public static void main(String[] args) {
         StudentDepartament departament = new StudentDepartament(10);
-        Teacher teacher = new Teacher("Ivav Pypkov", 43,"ivanich@daideneg.com","PhysMat","Rector");
-        teacher.setAddress(new Address("Kyiv", "Peace acenu", 23 , 32, 4));
-
+        Teacher teacher = new Teacher("Ivav Pypkov", 43, "ivanich@daideneg.com", "PhysMat", "Rector");
+        teacher.setAddress(new Address("Kyiv", "Peace avenu", 23, 32, 4));
 
         Subject[] subjects = {new Subject("tet", 10), new Subject("fwe",15)};
         Student student1 = new Student("fdw", 19, "fwfw", subjects, 3, "denna");
