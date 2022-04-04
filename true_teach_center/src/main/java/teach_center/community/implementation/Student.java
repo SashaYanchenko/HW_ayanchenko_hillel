@@ -10,12 +10,14 @@ public class Student extends CenterMember {
     private Subject[] subject;
     private int yearOfStudy;
     private String formOfEducation;
+    private Day[] visitingDays;
 
-    public Student(String name, int age, String email, Subject[] subject, int yearOfStudy, String formOfEducation) {
+    public Student(String name, int age, String email, Subject[] subject, int yearOfStudy, String formOfEducation, Day[] visitingDays) {
         super(name, age, email);
         this.subject = subject;
         this.yearOfStudy = yearOfStudy;
         this.formOfEducation = formOfEducation;
+        this.visitingDays = visitingDays;
     }
 
     public void setSubject(Subject[] subject) {
@@ -40,6 +42,10 @@ public class Student extends CenterMember {
 
     public Subject[] getSubject() {
         return subject;
+    }
+
+    public Day[] getVisitingDays() {
+        return visitingDays;
     }
 
     @Override
