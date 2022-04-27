@@ -1,0 +1,11 @@
+teach_center\community\Address.class
+teach_center\community\implementation\LearningProcess.class
+teach_center\community\implementation\Day.class
+teach_center\demo\Demo.class
+teach_center\community\implementation\Teacher.class
+teach_center\community\Subjects.class
+teach_center\department\StudentDepartament.class
+teach_center\community\abstraction\CenterMember.class
+teach_center\community\abstraction\Subject.class
+teach_center\community\implementation\Student.class
+teach_center\community\implementation\LearningProcess$1.class
