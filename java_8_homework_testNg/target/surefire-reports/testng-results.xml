@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-26T22:58:43 EEST" name="Command line suite" finished-at="2022-05-26T22:58:43 EEST" duration-ms="22">
+    <groups>
+    </groups>
+    <test started-at="2022-05-26T22:58:43 EEST" name="Command line test" finished-at="2022-05-26T22:58:43 EEST" duration-ms="22">
+      <class name="product_market.ProductMarketTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:product_market.ProductMarketTest@5f71c76a]" started-at="2022-05-26T22:58:43 EEST" name="setUp" finished-at="2022-05-26T22:58:43 EEST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testIsAllNames()[pri:0, instance:product_market.ProductMarketTest@5f71c76a]" started-at="2022-05-26T22:58:43 EEST" name="testIsAllNames" finished-at="2022-05-26T22:58:43 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsAllNames -->
+        <test-method signature="testIsAllPricesBelowZero()[pri:0, instance:product_market.ProductMarketTest@5f71c76a]" started-at="2022-05-26T22:58:43 EEST" name="testIsAllPricesBelowZero" finished-at="2022-05-26T22:58:43 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsAllPricesBelowZero -->
+        <test-method signature="testIsAllPricesOverTen()[pri:0, instance:product_market.ProductMarketTest@5f71c76a]" started-at="2022-05-26T22:58:43 EEST" name="testIsAllPricesOverTen" finished-at="2022-05-26T22:58:43 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsAllPricesOverTen -->
+        <test-method signature="testIsAllPricesInString()[pri:0, instance:product_market.ProductMarketTest@5f71c76a]" started-at="2022-05-26T22:58:43 EEST" name="testIsAllPricesInString" finished-at="2022-05-26T22:58:43 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsAllPricesInString -->
+        <test-method signature="testIsAllSortedNames()[pri:0, instance:product_market.ProductMarketTest@5f71c76a]" started-at="2022-05-26T22:58:43 EEST" name="testIsAllSortedNames" finished-at="2022-05-26T22:58:43 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsAllSortedNames -->
+      </class> <!-- product_market.ProductMarketTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
