@@ -1,4 +1,4 @@
-package app.dto.Reg;
+package app.dto.reg;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.*;
@@ -9,7 +9,7 @@ import lombok.*;
 @EqualsAndHashCode
 @ToString
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Register {
-    private String email;
-    private String password;
+public class UnSuccessReg {
+    private String error;
 }
+
