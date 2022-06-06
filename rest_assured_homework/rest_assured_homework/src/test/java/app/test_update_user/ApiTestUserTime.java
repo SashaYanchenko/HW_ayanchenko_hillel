@@ -23,7 +23,7 @@ public class ApiTestUserTime {
                 .put("api/users/2")
                 .then().log().all()
                 .extract().as(UserTimeResponse.class);
-        String regex = "(.{5})$";
+        String regex = "\\..*";
         String currentTime = Clock.systemUTC().instant().toString().replaceAll(regex, "");
         assertEquals(currentTime, userTimeResponse.getUpdatedAt().replaceAll(regex, ""));
     }
