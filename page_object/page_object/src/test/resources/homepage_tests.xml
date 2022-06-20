@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="appSuite" verbose="1">
+    <test name="homepage">
+        <classes>
+            <class name="homepage.TestHomepage">
+            </class>
+        </classes>
+    </test>
+</suite>

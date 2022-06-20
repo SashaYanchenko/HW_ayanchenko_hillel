@@ -3,6 +3,7 @@ package apps.driver.cash;
 import apps.driver.utils.WebDriverUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,6 +12,7 @@ public class WebDriverCash {
 
     private static WebDriver webDriver;
     private static Map<String, WebDriver> mappedWebDriver = new HashMap<>();
+    private static ChromeOptions chromeOptions = new ChromeOptions();
 
     private WebDriverCash() {
     }
